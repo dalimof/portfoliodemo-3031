@@ -1,0 +1,8 @@
+# Dream Big — visual system
+The uploaded blossom whale is the full-screen centerpiece. Preserve its white script with clear space on initial load. Fixed WebGL depth-displaced image surface, cloud billboards and instanced petals. Scroll drives a camera flight from snout to tail. Quick View removes the immersive scene.
+
+Palette: magenta #ed25bd, blossom #ffd9e9, translucent glass #ffeaf3, midnight #23182e, warm white #fff8fc. White hero typography over a bottom-only plum gradient. Midnight type on glass for later chapters.
+Typography: Manrope for display and UI; Cormorant Garamond italic for editorial accents. Hero 90px desktop / 44px mobile, section titles 64px, body 16px with 1.7 line-height, overlines 10px uppercase with .18em tracking.
+Layout: 48px desktop / 24px mobile gutters. Fixed corner brand and Quick View, right-side chapter HUD. Hero identity sits low beneath the whale; expansive chapters use 140px vertical spacing. Fine bordered glass cards with 24px radii, restrained shadows, custom CSS project previews and perspective hover.
+Motion: staggered entrance, GSAP chapter reveals, damped pointer camera, layered volumetric-look clouds. Reduced motion disables continuous animation and smooth scroll. Modals support Escape, focus restoration and backdrop dismissal.
+Architecture: web frontend components for scene, project previews, contact, page orchestration; oRPC contact.submit procedure; Drizzle contact_messages table. Form saves messages, does not claim email delivery. Supplied project URLs retained; social links point to specific handles.
